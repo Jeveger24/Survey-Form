@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Restaurant Evaluation Survey</h1>
+            <h3>Please let us know how was the food and service.</h3>
+        </div>
+    </header>
+
+    <section class="questions">
+        <div class="container">
+            <form class="day_form">
+                <label id="visited">Day Visited:</label>
+                <input type="date" name="day" min="1" max="31">
+            </form>
+
+            <form class="in_out">
+                <label id="dine">Dine In/ Take Out:</label>
+                <div class="labels">
+                    <label><input type="radio" name="dine_in">Dine In</label>
+                    <label><input type="radio" name="take_out">Take Out</label>
+                </div>
+            </form>
+
+            <form class="food">
+                <label id="food_quality">Food Quality:</label>
+                <div class="labels">
+                    <label><input type="radio" name="excellent">Excellent</label>
+                    <label><input type="radio" name="good">Good</label>
+                    <label><input type="radio" name="average">Average</label>
+                    <label><input type="radio" name="dissatisfied">Dissatisfied</label>
+
+                </div>
+            </form>
+
+            <form class="clean">
+                <label id="cleanliness">Cleanliness:</label>
+                <div class="labels">
+                    <label><input type="radio" name="excellent">Excellent</label>
+                    <label><input type="radio" name="good">Good</label>
+                    <label><input type="radio" name="average">Average</label>
+                    <label><input type="radio" name="dissatisfied">Dissatisfied</label>
+                </div>
+            </form>
+
+            <form class="order">
+                <label id="order_accuracy">Order Accuracy:</label>
+                <div class="labels">
+                    <label><input type="radio" name="excellent">Excellent</label>
+                    <label><input type="radio" name="good">Good</label>
+                    <label><input type="radio" name="average">Average</label>
+                    <label><input type="radio" name="dissatisfied">Dissatisfied</label>
+                </div>
+            </form>
+
+            <form class="service">
+                <label id="speed_service">Speed Of Service:</label>
+                <div class="labels">
+                    <label><input type="radio" name="excellent">Excellent</label>
+                    <label><input type="radio" name="good">Good</label>
+                    <label><input type="radio" name="average">Average</label>
+                    <label><input type="radio" name="dissatisfied">Dissatisfied</label>
+                </div>
+            </form>
+
+            <form class="value">
+                <label id="value">Value:</label>
+                <div class="labels">
+                    <label><input type="radio" name="excellent">Excellent</label>
+                    <label><input type="radio" name="good">Good</label>
+                    <label><input type="radio" name="average">Average</label>
+                    <label><input type="radio" name="dissatisfied">Dissatisfied</label>
+                </div>
+            </form>
+
+            <form class="overall">
+                <label id="overall_experience">Overall Experience:</label>
+                <div class="labels">
+                    <label><input type="radio" name="excellent">Excellent</label>
+                    <label><input type="radio" name="good">Good</label>
+                    <label><input type="radio" name="average">Average</label>
+                    <label><input type="radio" name="dissatisfied">Dissatisfied</label>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="comments">
+        <div class="container">
+            <form class="comment">
+                <label id="info">
+                    <h3>Any comments, questions or suggestions?</h3>
+                </label>
+                <textarea name="message"></textarea>
+            </form>
+        </div>
+ 
+        <div class="container">
+            <form id="name">
+                <label>Name: </label>
+                <input type="text" name="name">
+            </form>
+
+            <form id="age">
+                <label>Age: </label>
+                <input type="text" name="age">
+            </form>
+
+            <form id="email">
+                <label>E-mail: </label>
+                <input type="text" name="email">
+            </form>
+        </div>
+    </section>
+
+    <div class="container">
+        <button type="submit" value="Submit">Submit</button>
+    </div>
+
+    <footer id="footer">
+        <p>Copyright &copy; 2019 Survey Form</p>
+    </footer>
+
+    <script type="javascript" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+body{
+    background-color: #f4f4f4;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font: 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+    overflow: hidden;    
+}
+
+#header{
+
+    background-image: url(./images/wood.jpg);
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+#header h3{
+    color: #DEB474;
+}
+
+.day_form{
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.day_form input{
+    height: 1.5em;
+    width: 10em;
+    margin-left: 20px;
+}
+
+.in_out{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.in_out .labels{
+    float: right;
+    width: 78%;
+}
+
+.in_out .labels label{
+    display: block;
+    
+}
+
+.food{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.food .labels{
+    float: right;
+    width: 78%;
+}
+
+.food .labels label{
+    display: block;
+    
+}
+
+.clean{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.clean .labels{
+    float: right;
+    width: 78%;
+}
+
+.clean .labels label{
+    display: block;
+    
+}
+
+.order{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.order .labels{
+    float: right;
+    width: 78%;
+}
+
+.order .labels label{
+    display: block;
+    
+}
+
+.service{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.service .labels{
+    float: right;
+    width: 78%;
+}
+
+.service .labels label{
+    display: block;
+    
+}
+
+.value{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.value .labels{
+    float: right;
+    width: 78%;
+}
+
+.value .labels label{
+    display: block;
+    
+}
+
+.overall{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.overall .labels{
+    float: right;
+    width: 78%;
+}
+
+.overall .labels label{
+    display: block;
+    
+}
+
+#comments{
+    padding: 0;
+    margin: 0;
+    border-top: 2px dotted black;
+}
+
+#comments .comment{
+    padding-top: 0;
+}
+
+#comments .comment textarea{
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+}
+
+#comments #name input{
+    width: 40%;
+    margin-left: 20px;
+}
+
+#comments #age input{
+    width: 40%;
+    margin-left: 34px;
+}
+
+#comments #email input{
+    width: 40%;
+    margin-left: 17px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background: #ECD0B8;
+}
+
+#footer{
+    padding: 0;
+    text-align: center;
+}
